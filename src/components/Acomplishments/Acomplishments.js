@@ -5,13 +5,13 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { Box, Boxes, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 20, text: "Open Source Projects" },
-  { number: 1000, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+  { text: "NATIONAL SOCIETY OF HIGH SCHOOL SCHOLARS" },
+  { text: "Certification In Full Stack Development" },
+  { text: "Earned “Employee of the Month” recognition" },
+  { text: "Successfully upsold customers on 23% of transactions." },
 ];
 
 const Acomplishments = () => (
@@ -21,7 +21,6 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}

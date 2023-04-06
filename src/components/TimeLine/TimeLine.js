@@ -64,16 +64,9 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a software engineer with a passion for building web applications. I
-        have experience with React, Node, Express, and MongoDB. I am currently
-        working on a full-stack web application called{" "}
-        <a href="https://www.thesocialnetwork.com">The Social Network</a> that
-        allows users to create a profile, share posts, and connect with other
-        users. I am also working on a full-stack web application called{" "}
-        <a href="https://www.thesocialnetwork.com">The Social Network</a> that
-        allows users to create a profile, share posts, and connect with other
-        users.
+        have experience with React, Node, Express, JavaScript. 
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -133,7 +126,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButtons>
+      </CarouselButtons> */}
     </Section>
   );
 };
