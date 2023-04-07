@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/hoobank.png",
     tags: ["React", "Tailwind"],
     source: "https://github.com/cmitch30/modern_bank_app",
-    visit: "https://cjm-bankfrontend.tech/",
+    visit: "https://cjm-hoobank.netlify.app/",
     id: 2,
   },
   {
