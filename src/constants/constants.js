@@ -24,7 +24,7 @@ export const projects = [
     description:
       "Using React created Fully Responsive Website with Modern UI/UX with Tailwind",
     image: "/images/hoobank.png",
-    tags: ["React", "Tailwind"],
+    tags: ["React", "TailwindCss"],
     source: "https://github.com/cmitch30/modern_bank_app",
     visit: "https://cjm-hoobank.netlify.app/",
     id: 2,
@@ -96,5 +96,5 @@ export const TimeLineData = [
   { year: 2022, text: "Learned Basics of the Web" },
   { year: 2023, text: "Completed over 200 hours of coding bootcamp" },
   { year: 2023, text: "Shared my projects with the world" },
-  { year: 2023, text: "Earned a Certification" },
+  { year: 2023, text: "Earned a Full Stack Developer Certification" },
 ];
